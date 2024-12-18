@@ -36,13 +36,13 @@ const App = () => {
       <div className="relative z-10 bg-gray-900/80 shadow-2xl p-8 rounded-3xl text-white text-center backdrop-blur-lg transform transition duration-500 hover:scale-105">
         {/* Time Display */}
         <div className="flex justify-center items-baseline space-x-2 text-7xl font-extrabold">
-          <span className="hover:text-blue-400 transition duration-300">{hours}</span>
+          <span className=" transition duration-300">{hours}</span>
           <span className="text-6xl">:</span>
-          <span className="hover:text-green-400 transition duration-300">{minutes}</span>
-          <span className="text-3xl font-medium hover:text-yellow-400 transition duration-300">{ampm}</span>
+          <span className=" transition duration-300">{minutes}</span>
+          <span className="text-3xl font-medium  transition duration-300">{ampm}</span>
         </div>
         {/* Seconds */}
-        <div className="mt-2 text-3xl text-gray-400 hover:text-cyan-300 transition duration-300">
+        <div className="mt-2 text-3xl text-gray-400  transition duration-300">
           {seconds}
         </div>
         {/* Date */}
